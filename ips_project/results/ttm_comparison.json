@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-04-04T13:49:17.709199",
+  "config_c": {
+    "config": "C \u2014 Traditional iptables",
+    "ttm_ms": 368.26,
+    "rule_apply_ms": 318.93,
+    "packets_before_block": 40226,
+    "port_scan_detection": "NO",
+    "novel_attack_detection": "NO",
+    "false_positive_risk": "HIGH",
+    "auto_detection": "NO \u2014 manual rule required",
+    "adaptive_response": "NO \u2014 binary block only",
+    "first_packet_time_ms": 1775306871958.72,
+    "rule_applied_time_ms": 1775306872326.98
+  },
+  "config_a": {
+    "config": "A \u2014 ML IPS (Your System)",
+    "ttm_ms": 2206.46,
+    "detection_latency_ms": 2034.65,
+    "classify_ms": 0.61,
+    "enforce_ms": 171.1,
+    "packets_before_block": 19057,
+    "ml_label": "ATTACK",
+    "ml_confidence": 0.97,
+    "port_scan_detection": "YES",
+    "novel_attack_detection": "YES",
+    "false_positive_rate": "0.00%",
+    "auto_detection": "YES \u2014 automatic ML classification",
+    "adaptive_response": "YES \u2014 3 confidence tiers",
+    "first_packet_time_ms": 1775306955389.19,
+    "block_enforced_time_ms": 1775306957595.65
+  },
+  "summary": {
+    "ttm_improvement_ms": -1838.2,
+    "speedup_factor": 0.17,
+    "packets_saved": 21169
+  }
+}

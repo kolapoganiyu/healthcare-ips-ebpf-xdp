@@ -1,0 +1,8 @@
+TTM COMPARISON REPORT
+Generated: 2026-04-04 13:49:17.711194
+
+Config C TTM: 368.26 ms
+Config A TTM: 2206.46 ms
+Speedup:      0.2x
+Improvement:  -1838.20 ms
+Packets saved from entering network: 21,169
